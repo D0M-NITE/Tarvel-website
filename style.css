@@ -289,10 +289,14 @@ body{
     }
     .sign-in-bth{
         position: absolute;
-        left:250px;
+        left:290px;
         top: -90px;
         height: 30px;
         width: 70px;
+    }
+     .homebtn{
+        position: relative;
+        top: -70px;
     }
     .trip-page-continer{
         height:100vh;
@@ -322,7 +326,7 @@ body{
         cursor: pointer;
         transition: 0.5s ease-in-out;
         position: absolute;
-        left: 200px;
-        top: 230px;
+        left: 250px;
+        top: 50px;
     }
 }
