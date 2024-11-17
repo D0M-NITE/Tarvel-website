@@ -165,7 +165,7 @@ body{
     }
     .signin-content{
         height: 550px;
-        width: 100%;
+        width: 90%;
         color: #fff;
         font-size: 34px;
         font-weight: bolder;
@@ -202,11 +202,11 @@ body{
         top: 450px;
     }
     .website-container{
-        height: 106vh;
-        width:450px;
+        height: 100%;
+        width:100%;
     }
     body{
-        height: 100vh;
-        width: 450px;
+        height: 100%;
+        width:100%;
     }
 }
