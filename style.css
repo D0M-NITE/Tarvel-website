@@ -254,7 +254,7 @@ body{
 }
 @media (max-width:600px){
     .webcontainer{
-        width: 100%;
+        width: 600px;
     }
     .navbar{
         height: 50px;
