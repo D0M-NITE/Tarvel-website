@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock-Paper-Scissor</title>
+    <style>
+      body {
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(rgb(5, 240, 216), black);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .gamebox {
+        height: 500px;
+        width: 500px;
+        background-color: rgba(0, 0, 0, 0.492);
+        border-radius: 30px;
+        box-shadow: 0 0 30px white;
+        display: inline;
+        justify-items: center;
+        padding: 20px;
+      }
+      .btnbox {
+        height: 150px;
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      button {
+        height: 100px;
+        width: 100px;
+        border: none;
+        border-radius: 200px;
+        background-color: transparent;
+        box-shadow: 2px 2px 10px black;
+        margin: 10px;
+      }
+      img {
+        height: 50px;
+        width: 60px;
+      }
+      h1 {
+        font-size: 55px;
+      }
+      .inputbox {
+        height: 50px;
+        width: 320px;
+        border: none;
+        box-shadow: 0 0 20px black;
+        border-radius: 10px;
+        background-color: transparent;
+        color: white;
+        font-size: 15px;
+        padding-left: 20px;
+        margin: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="gamebox">
+      <h1>Rock-Paper-Scissor</h1>
+      <input
+        type="text"
+        placeholder="Result Show Here"
+        class="inputbox"
+        id="ResultBox"
+      />
+
+      <div class="btnbox">
+        <button class="rock" id="Btn1">
+          <img src="img/stone-576268_1280.png" />
+        </button>
+
+        <button class="paper" id="Btn2">
+          <img src="img/file-151104_1280.png" />
+        </button>
+
+        <button class="scissor" id="Btn3" onclick="playGame(scissor)">
+          <img src="img/cut-1297554_640.webp"
+        </button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
